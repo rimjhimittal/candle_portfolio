@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="script.js"></script>
   </head>
 
@@ -60,23 +61,24 @@
       </div>
 
       <div id="gallery_section">
-        <span id="oneimage"><img src="images/1.jpg" alt="" height="400px" width="280px"></span>
+        <span id="oneimage" data-aos="fade-up"><img src="images/1.jpg" alt="" height="400px" width="280px"></span>
 
         <br>
         <div id="image_container">
 
-          <div class="column" id="row1" onclick="enlargeimg()"> <img src="images/2.jpg" alt="" onclick="enlargeimg()">
+          <div class="column" data-aos="fade-up" id="row1" onclick="enlargeimg()"> <img src="images/2.jpg" alt=""
+              onclick="enlargeimg()">
             <img src="images/3.jpg" alt="" onclick="enlargeimg()"> <img src="images/4.jpg" alt="">
           </div>
           <br>
-          <div class="column" id="row2"><img src="images/5.jpg" alt="" class="photo" onclick="enlargeimg()"> <img
-              src="images/6.jpg" alt="" class="photo" onclick="enlargeimg()"> <img src="images/7.jpg" alt=""
-              class="photo" onclick="enlargeimg()"></div><br>
-          <div class="column" id="row2"><img src="images/8.jpg" alt="" class="photo" onclick="enlargeimg()"> <img
-              src="images/9.jpg" alt="" class="photo" onclick="enlargeimg()"> <img src="images/10.jpg" alt=""
-              class="photo" onclick="enlargeimg()"></div><br>
-          <div class="column" id="row2"><img src="images/11.jpg" alt="" class="photo" onclick="enlargeimg()"> <img
-              src="images/12.jpg" alt="" class="photo" onclick="enlargeimg()"></div>
+          <div class="column" data-aos="fade-up" id="row2"><img src="images/5.jpg" alt="" class="photo"
+              onclick="enlargeimg()"> <img src="images/6.jpg" alt="" class="photo" onclick="enlargeimg()"> <img
+              src="images/7.jpg" alt="" class="photo" onclick="enlargeimg()"></div><br>
+          <div class="column" data-aos="fade-up" id="row2"><img src="images/8.jpg" alt="" class="photo"
+              onclick="enlargeimg()"> <img src="images/9.jpg" alt="" class="photo" onclick="enlargeimg()"> <img
+              src="images/10.jpg" alt="" class="photo" onclick="enlargeimg()"></div><br>
+          <div class="column" data-aos="fade-up" id="row2"><img src="images/11.jpg" alt="" class="photo"
+              onclick="enlargeimg()"> <img src="images/12.jpg" alt="" class="photo" onclick="enlargeimg()"></div>
         </div>
         <section id="footer">
           abcdefgh
@@ -86,7 +88,10 @@
 
 
     </div>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 
 </html>
