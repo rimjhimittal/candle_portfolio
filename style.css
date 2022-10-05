@@ -24,7 +24,7 @@ body,html
 #banner
 {
   background-image: url('images/candle_bg.jpg');
-  background-position: center;
+  
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
@@ -37,7 +37,7 @@ body,html
   position: fixed;
   width: 240px;
   left: -240px;
-  height: 70%;
+  height: 100%;
   background: #362F56;
   transition: all .5s ease;
   margin-top: -65px;
