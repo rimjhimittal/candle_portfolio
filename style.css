@@ -254,6 +254,7 @@ color: #362F56;
 #oneimage img:hover
 {
   transform: scale(1.1);
+  transition: 0.5s;
 }
 
 #oneimage img
